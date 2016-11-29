@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EBF5F4;
+}
+
+#Map {
+  position: relative;
+}
+
+#title {
+    position: absolute;
+    z-index: 100;
+    text-align: center;
+    margin-left: 40%;
+    font-size: 32px;
+    font-family: 'Pacifico';
+    font-weight: 500;
+    color: #F78F8F;
+    padding-top: 5px;
+    letter-spacing: 2px;
+}
+
+#map {
+    width: 100%;
+    z-index: 0;
+}
+
+#Melbourne {
+    top: 60.5%;
+    left: 44%;
+}
+
+#Kyoto {
+    top: 33%;
+    left: 42%;
+}
+
+#Brighton {
+  top: 25%;
+  left: 3.5%;
+}
+
+#Seattle {
+  top: 27%;
+  left: 70%;
+}
+
+#Saltlake {
+    top: 30%;
+    left: 73%;
+}
+
+.pin {
+    z-index: 10;
+    cursor: pointer;
+}
+
+
+.hover {
+    display: none;
+    z-index: 20;
+    position: absolute;
+    top: -1px;
+    height: 30px;
+    width: 32px;
+    left: -1px;
+    cursor: pointer;
+}
+
+.text {
+  font-size: 12px;
+  font-family: 'Open Sans';
+  color: grey;
+}
+
+.marker {
+  width: 30px;
+  position: absolute;
+}
+
+.home{
+  width: 30px;
+}
+
+#Shanghai.hover{
+  width: 30px;
+}
+
+#Shanghai {
+    top: 36%;
+    left: 37%;
+}
+
+#Berkeley {
+    top: 32%;
+    left: 70.5%;
+}
+img.filled {
+  width: 30px;
+}
+/*About*/
+
+#left {
+    width: 30%;
+    display: inline-block;
+}
+
+img#me {
+    width: 238px;
+}
+
+#contact {
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Raleway';
+    padding: 10px;
+    background-color: rgba(50, 200, 190, 0.49);
+    margin: 10px 0px;
+    color: #565353;
+}
+
+#description {
+    width: 65%;
+    float: right;
+    font-family: 'Open Sans';
+    line-height: 1.8;
+    color: #5f5555;
+}
+
+#About {
+    padding: 100px 200px;
+    overflow: auto;
+}
+
+img.icon {
+    width: 30px;
+    margin: 5px;
+    margin-top: 8px;
+}
+
+/* overlay */
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+}
+
+.lightbox {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 200;
+    display: none;
+}
+
+#SeattleLB img.photo {
+    width: 300px;
+    left: 270;
+}
+img.photo {
+    /* height: 500px; */
+    height: calc(100% - 39px);
+    object-fit: cover;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+    /* padding: 20px; */
+    /* left: calc(50% - 360px); */
+    position: relative;
+}
+
+.box {
+    width: 800px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    height: 75vh;
+    z-index: 300;
+}
+
+.caption {
+    padding: 0px 20px;
+    text-align: center;
+    font-family: 'Raleway';
+    color: #efdbdb;
+}
+
+
+img.close {
+    width: 30px;
+    position: absolute;
+    top: 40px;
+    left: 1030px;
+    cursor: pointer;
+}

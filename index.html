@@ -1,11 +1,156 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    Under construction =P But coming soon!
+<head>
+	<title>Elva's World Map</title>
+	<!-- Add Open Sans from Google Fonts here -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Pacifico|Raleway" rel="stylesheet">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+	</script>
+	<script src = "assets/js/script.js"></script>
+</head>
+</head>
+<body>
+	<div id="container">
+		<div id="Map">
+			<div id="title">Elva's World Map</div>
+			<img src="assets/img/map.png" id='map'/>
+      <div id="Melbourne" class="marker">
+    		<img class="pin" src="assets/img/marker.png"/>
+				<div class="hover">
+					<img src="assets/img/color.png">
+					<div class="text">Melbourne</div>
+				</div>
+			</div>
 
-  </body>
+			<div id="MelbourneLB" class="lightbox">
+				<div class="overlay">
+					<div class="box">
+						<img div class="photo" src="assets/img/melbourne.jpg">
+						<div class="caption">
+							This tentacle is what comes to my mind everytime I think of Melbourne.
+						</div>
+					</div>
+				<img class="close" src="assets/img/close.png"  />
+				</div>
+			</div>
+
+			<div id="Kyoto" class="marker">
+				<img class="pin" src="assets/img/marker.png"/>
+				<div class="hover">
+					<img src="assets/img/color.png">
+					<div class="text">Kyoto</div>
+				</div>
+			</div>
+
+			<div id="KyotoLB" class="lightbox">
+				<div class="overlay">
+					<div class="box">
+						<img div class="photo" src="assets/img/kyoto.jpg">
+						<div class="caption">
+							Walking in Kyoto fools me into thinking that I am watching a Hayao Miyazaki movie in 4D.
+						</div>
+					</div>
+				<img class="close" src="assets/img/close.png"  />
+				</div>
+			</div>
+
+		<div id="Brighton" class="marker">
+			<img class="pin" src="assets/img/marker.png"/>
+			<div class="hover">
+				<img src="assets/img/color.png">
+				<div class="text">Brighton</div>
+			</div>
+		</div>
+
+		<div id="BrightonLB" class="lightbox">
+			<div class="overlay">
+				<div class="box">
+					<img div class="photo" src="assets/img/brighton.jpg">
+					<div class="caption">
+						Even after 6 years, I still can't forget the sound of waves hitting on the paddle beach and the loud serenity of Brighton.
+					</div>
+				</div>
+			<img class="close" src="assets/img/close.png"  />
+			</div>
+		</div>
+
+		<div id="Seattle" class="marker">
+			<img class="pin" src="assets/img/marker.png"/>
+			<div class="hover">
+				<img src="assets/img/color.png">
+				<div class="text">Seattle</div>
+			</div>
+		</div>
+
+		<div id="SeattleLB" class="lightbox">
+			<div class="overlay">
+				<div class="box">
+					<img div class="photo" src="assets/img/seattle.jpg">
+					<div class="caption">
+						Seattle looks like it is in the fall all the time. But my favorite season is fall.
+					</div>
+				</div>
+			<img class="close" src="assets/img/close.png"  />
+			</div>
+		</div>
+
+		<div id="Saltlake" class="marker">
+		  <img class="pin" src="assets/img/marker.png"/>
+		  <div class="hover">
+		    <img src="assets/img/color.png">
+		    <div class="text">Salt Lake</div>
+		  </div>
+		</div>
+
+		<div id="SaltlakeLB" class="lightbox">
+		  <div class="overlay">
+		    <div class="box">
+		      <img div class="photo" src="assets/img/saltlake.jpg">
+		      <div class="caption">
+		        I have never been to a desert, but I guess the solitude in Bonneville Salt Flats can parallel with that in a desert.
+		      </div>
+		    </div>
+		  <img class="close" src="assets/img/close.png"  />
+		  </div>
+		</div>
+
+		<div id="Shanghai" class="marker">
+		  <img class="home" src="assets/img/home.png"/>
+		  <div class="hover">
+		    <img class="filled" src="assets/img/filled.png">
+		    <div class="text">Shanghai</div>
+		  </div>
+		</div>
+
+		<div id="Berkeley" class="marker">
+		  <img class="home" src="assets/img/home.png"/>
+		  <div class="hover">
+		    <img class="filled" src="assets/img/filled.png">
+		    <div class="text">Berkeley</div>
+		  </div>
+		</div>
+
+		</div>
+    <div id="About">
+			<div id="left">
+				<img id="me" src="assets/img/me.png"/>
+				<div id="contact">
+					<div>Elva Chen</div>
+					<div id="icons">
+					<a href="http://www.elvachenxy.com"><img class="icon" src="assets/img/logo.png"/></a>
+					<a href="https://www.linkedin.com/in/elvachenxy"><img class="icon" src="assets/img/linkedin.png"/></a>
+					<a href="https://www.instagram.com/elvaelp/"><img class="icon" src="assets/img/instagram.png"/></a>
+					<a href="mailto:elvachenxy@berkeley.edu"><img class="icon" src="assets/img/email.png"/></a>
+					</div>
+				</div>
+			</div>
+		  <div id="description">Hi there! I'm Elva, a UC Berkeley student who lives in Berkeley CA and Shanghai China. This is a personal world map I created for my final project in my Web Design DeCal Class. This map is a showcase of the places I have been and the photos I took there. Ever since childhood, I wish I could have a map that keeps a record of all the places I have been to, and thanks to this class (and techology!), this is finally happening, without worrying about keeping a physical map with me for decades.
+			<br><br>
+			Right now it is an incomplete collection of my photography works and the places I have been. I will be updating this site with features (such as adding a carousel for the lightbox) and more photos of old and new places!
+			<br><br>
+			Acknowledgement: The map image is designed using Mapbox.
+			</div>
+		</div>
+	</div>
+</body>
 </html>
